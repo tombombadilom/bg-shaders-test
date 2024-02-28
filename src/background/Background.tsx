@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { useRef, useEffect } from 'react';
+import { useRef } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
 
 import { useMarble } from '@funtech-inc/use-shader-fx';
