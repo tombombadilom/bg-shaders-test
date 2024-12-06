@@ -1,9 +1,12 @@
+import { Background } from './background/Background'
+
+import './App.css'
+
 function App() {
-	return (
-		<div>
-			<h1>Bienvenue dans mon application</h1>
-		</div>
-	);
+  
+  return (
+      <Background speed={.25}/>
+  )
 }
 
-export default App;
+export default App
